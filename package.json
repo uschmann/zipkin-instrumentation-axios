@@ -1,0 +1,31 @@
+{
+  "name": "zipkin-instrumentation-axios",
+  "version": "0.1.0",
+  "description": "Wrapper to instrument the axios HTTP-client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uschmann/zipkin-instrumentation-axios.git"
+  },
+  "keywords": [
+    "zipkin",
+    "instrumemtation",
+    "http",
+    "client",
+    "axios",
+    "npm"
+  ],
+  "author": "Andre Uschmann <mail@andre-uschmann.de> (http://andre-uschmann.de)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/uschmann/zipkin-instrumentation-axios/issues"
+  },
+  "homepage": "https://github.com/uschmann/zipkin-instrumentation-axios#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "zipkin": "^0.6.1"
+  }
+}
